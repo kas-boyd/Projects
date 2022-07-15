@@ -1,1 +1,2 @@
-This is a repo for learning git
+Projects Page
+  Personal Portfolio: https://62a6377de4f86118a9ee5ba2--bejewelled-unicorn-df042c.netlify.app/
