@@ -1,0 +1,40 @@
+.about_me img {
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    float: left;
+}
+
+.space {
+    clear: left;
+}
+
+.about_headings{
+    font-family:'Staatliches', cursive;
+    margin: 10px;
+}
+
+h2 {
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+p {
+    text-align: left;
+    padding: 10px
+}
+
+.home_name {
+    font-size: 30px;
+    padding: 10px;
+}
+
+main{
+    padding: 100px 25px 300px 25px;
+    background-color: white;
+    margin: 75px 100px 75px 100px;
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,37 @@
+.projects img {
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    float: left;
+}
+
+p {
+    padding: 10px;
+    text-align: left;
+}
+
+.project_name {
+    font-family:'Staatliches', cursive;
+    margin: 15px;
+}
+
+.home_name {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.space {
+    clear: left;
+}
+
+h2 {
+    text-align: left;
+}
+
+main{
+    padding: 100px 50px 300px 50px;
+    background-color: white;
+    margin: 75px 100px 75px 100px;
+    text-align: center;
+}
+
