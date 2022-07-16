@@ -1,0 +1,112 @@
+.main-nav, .sub-nav {
+    display: flex;
+    font-family: Dosis;
+    font-weight: 500px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.nav-list a {
+    padding: 5px;
+    border-right: 5px;
+    color: white;
+    text-decoration: none;
+    border-right: .5px solid #eee;
+    
+}
+
+.nav-list li:last-of-type a {
+    border-right: none;
+}
+
+.main-nav {
+    display: flex;
+    background-color: rgb(22, 36, 71);
+    justify-content: space-between;
+}
+
+.sub-nav {
+    background-color: #eee;
+    align-items: center;
+    padding: 1px;
+}
+
+ul.full-width{
+    display: none;
+    list-style-type: none;
+}
+
+ul.short-width {
+    display: flex;
+    list-style-type: none;
+}
+
+@media (min-width: 769px) {
+    ul.full-width {
+        display: flex;
+    }
+    
+    ul.short-width {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    ul.full-width {
+        display: none;
+    }
+
+    ul.short-width {
+        display: flex;
+    }
+}
+
+.search-form {
+    display: flex;
+    flex-grow: 1;
+}
+
+.search-form input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 500px;
+    padding: 1px;
+    border: none;
+    border-bottom: 1px solid rgb(22, 36, 71);
+    flex-grow: 1;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1px;
+    background-color: rgb(22, 36, 71);
+    color: white;
+    border-radius: 5px;
+    border-color: rgb(22, 36, 71);
+}
+
+.company-name {
+    padding: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    min-width: 236px;
+    text-align: center;
+    margin: 0 15px 0 15px;
+}
+
+a.credit-offer {
+    margin: 0 10px;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(149, 1, 1);
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    flex-shrink: 0;
+}

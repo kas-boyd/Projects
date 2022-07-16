@@ -1,0 +1,40 @@
+footer {
+    display: flex;
+    flex: row;
+    background-color: rgb(22, 36, 71);
+    padding: 18px;
+    font-family: Dosis;
+    text-align: center;
+    justify-content: center;
+
+}
+
+section {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+section:last-child {
+    margin-right: 0;
+}
+
+h2 {
+    color: white;
+    border-bottom: white solid;
+    padding: 5px;
+    margin: 5px;
+}
+
+a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    letter-spacing: 1px;
+}
+
+footer section a:hover {
+    border-bottom: 1px solid white;
+    margin-bottom: .5px;
+}
